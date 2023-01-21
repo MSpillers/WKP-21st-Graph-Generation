@@ -1,0 +1,27 @@
+1. Could add edges until each node has an edge to each other node and then backtrack to remove edges ass needed
+2. Could add edge until node is satisfied by checking current edges available slots and the slots of the node to be added
+    ##Does Not work, Try to find out why 
+    # availNodes = len(n_list)
+        # for i in range(len(n_list)):
+        #     #add edges until the available slots are full or there are no more available nodes for edges
+        #     while(n_list[i].getOpenSlots() > 0 and availNodes > 0):
+        #         if n_list[iter].getOpenSlots() > 0:
+        #             #add the current Node to the list of edges of the next node and vise versa, removing a slot from both
+        #             n_dict[n_list[i].id].append(n_list[i+1].id)
+        #             n_list[n_list[i].id].removeSlot()
+
+        #             n_dict[iter+1].append(n_list[i].id)
+        #             n_list[iter+1].removeSlot()
+
+        #             iter = iter + 1
+        #         elif n_list[iter].getOpenSlots() == 0 and iter < len(n_list):
+        #             availNodes = availNodes - 1
+        #             iter = iter + 1
+        #         else:
+        #             print("No such Graph")
+        #             return 0
+        #     if n_list[i].getOpenSlots() > 0 and availNodes == 0:
+        #         print("No such Graph")
+        #         return 0
+        # return None
+    
